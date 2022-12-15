@@ -1,0 +1,70 @@
+:root{
+    --main-text-color: #2e2f42;
+    --secondary-text-color: #434455;
+    --main-accent-color: #4d5ae5;
+    --secondary-accent-color: #e7e9fc;
+    --main-bg-color: #ffffff;
+    --secondary-bg-color: #f4f4fd;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--secondary-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.filters-btn {
+    background-color: var(--secondary-bg-color);
+    color: var(--main-accent-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.project-title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--main-text-color);
+}
+
+.project-desc {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.filters-btn:hover,
+.filters-btn:focus {
+    background-color: var(--main-accent-color);
+    color: var(--main-bg-color);
+}
+
+
+/*
+colors 
+Cloud #f4f4fd
+iris #4D5AE5
+navy blue #2E2F42;
+green
+slate background: #434455;
+light slate #8e8f99
+conrflower border: 1px solid #E7E9FC
+navy blue modal
+
+
+css vars
+:root{
+    --primary-text-color: ...;
+    --title-text-color:...;
+    --accent-color:   ;
+}
+color: var(--primary-text-color);
+
+    and then change those colros for the vars
+
+*/
+

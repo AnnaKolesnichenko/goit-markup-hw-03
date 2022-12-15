@@ -1,0 +1,117 @@
+:root{
+    --main-text-color: #2e2f42;
+    --secondary-text-color: #434455;
+    --main-accent-color: #4d5ae5;
+    --secondary-accent-color: #e7e9fc;
+    --main-bg-color: #ffffff;
+    --secondary-bg-color: #f4f4fd;
+    --btn-accent-color: #404bbf;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.hero {
+    background-color: var(--main-text-color);
+}
+
+.hero h1 {
+    color: var(--main-bg-color);
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.07;
+    text-align: center;
+    margin: auto;
+}
+
+.hero-btn {
+    background-color: var(--main-accent-color);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    cursor: pointer;
+}
+
+
+.strategy-title {
+    color: var(--main-text-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.stratery-descr {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.devs-title {
+    color: var(--main-text-color);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
+.team-title {
+    color: var(--main-text-color);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.member-title {
+    color: var(--main-text-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.member-descr {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--btn-accent-color);
+}
+
+/*
+colors 
+Cloud #f4f4fd
+iris #4D5AE5
+navy blue #2E2F42;
+green
+slate background: #434455;
+light slate #8e8f99
+conrflower border: 1px solid #E7E9FC
+navy blue modal
+
+
+css vars
+:root{
+    --primary-text-color: ...;
+    --title-text-color:...;
+    --accent-color:   ;
+}
+color: var(--primary-text-color);
+
+    and then change those colros for the vars
+
+*/
