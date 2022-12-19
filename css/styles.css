@@ -13,17 +13,66 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.navigation {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/*------Filter Btns--------*/
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 96px;
+    margin-bottom: 72px;
+}
 
 .filters-btn {
-    background-color: var(--secondary-bg-color);
-    color: var(--main-accent-color);
+    display: inline-block;
+    padding: 12px 24px;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
+    background-color: var(--secondary-bg-color);
+    color: var(--main-accent-color);
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
     cursor: pointer;
 }
 
+.filters .item + .item {
+    margin-left: 24px;
+}
+
+
+/*--------Projects--------*/
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    height: 420px;
+    width: 360px;
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border: .5px solid #f4f4fd;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, .08);
+}
+
+.project .project + .project {
+    margin-left: 16px;
+}
+
+.project img {
+    display: block;
+}
+
 .project-title{
+    margin-top: 32px;
+    margin-bottom: 8px;
+    margin-left: 16px;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
@@ -31,6 +80,9 @@ body {
 }
 
 .project-desc {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 16px;
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.5;
