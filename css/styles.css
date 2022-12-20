@@ -13,17 +13,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.navigation {
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+.project-examples {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
+
 
 /*------Filter Btns--------*/
 .filters {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .filters-btn {
@@ -49,20 +50,15 @@ body {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 120px;
 }
 
 .project {
-    width: 360px;
     margin-bottom: 48px;
-    padding-bottom: 32px;
-    border: .5px solid #f4f4fd;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, .08);
+    margin-right: 24px;
 }
 
-.project .project + .project {
-    margin-left: 24px;
+.project:nth-child(3n) {
+    margin-right: 0;
 }
 
 .project:nth-last-child(-n + 3) {
@@ -71,13 +67,12 @@ body {
 
 .project img {
     display: block;
-    width: 358px;
+    width: 100%;
+    height: auto;
 }
 
 .project-title{
-    margin-top: 32px;
     margin-bottom: 8px;
-    margin-left: 16px;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
@@ -87,10 +82,17 @@ body {
 .project-desc {
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 16px;
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.5;
+}
+
+.project-description {
+    padding-left: 16px;
+    padding-right: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, .08);
 }
 
 

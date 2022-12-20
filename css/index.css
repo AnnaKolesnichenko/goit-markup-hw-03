@@ -27,14 +27,16 @@ body {
 /*--------HERO--------*/
 .hero {
     background-color: var(--main-text-color);
-    height: 603px;
     text-align: center;
     padding-top: 192px;
     padding-bottom: 192px;
 }
 
 .hero h1 {
+    display: block;
+    margin: 0 auto;
     color: var(--main-bg-color);
+    width: 492px;
     font-size: 56px;
     font-weight: 600;
     line-height: 1.07;
@@ -47,14 +49,13 @@ body {
     display: inline-block;
     border-radius: 4px;
     padding: 16px 32px;
-    min-width: 170px;
-    height: 51px;
     background-color: var(--main-accent-color);
     color: #ffffff;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.18;
     cursor: pointer;
+    border: none;
     box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
 
 }
@@ -62,11 +63,13 @@ body {
 
 /*--------STRATEGY--------*/
 
-.strategies {
-    display: flex;
-    align-items: center;
+.strateg {
     padding-bottom: 120px;
     padding-top: 120px;
+}
+
+.strategies {
+    display: flex;
 }
 
 .strategies .strategy + .strategy {
@@ -81,7 +84,7 @@ body {
     line-height: 1.2;
 }
 
-.stratery-descr {
+.strategy-descr {
     color: var(--secondary-text-color);
     font-size: 16px;
     font-weight: 400;
@@ -126,7 +129,7 @@ body {
     margin-bottom: 72px;
     margin-top: 0;
     color: var(--main-text-color);
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 1.1;
     text-align: center;
@@ -142,19 +145,23 @@ body {
 }
 
 .member {
-    padding-bottom: 32px;
     box-shadow: 0px 1px 6px rgba(47, 47, 66, 0.08),
     0px 1px 1px 1px rgba(46, 47, 66, .16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     background-color: white;
+    padding-bottom: 0;
 }
 
 .member img {
     display: block;
 }
 
+.description {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .member-title {
-    margin-top: 32px;
     margin-bottom: 8px;
     color: var(--main-text-color);
     font-size: 20px;
